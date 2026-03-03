@@ -100,6 +100,33 @@
             padding: 20px;
             margin-top: 40px;
         }
+        .botoes-hero {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-voluntario {
+            background: #da561a;
+            color: white;
+        }
+        .btn-crianca {
+            background: #1e3a8a;
+            color: white;
+        }
+        .btn:hover{
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
     </style>
 </head>
 
@@ -113,11 +140,10 @@
 <section class="hero">
     <h1>No riso de uma crinaça, encontramos a esperança de um amanhã melhor.</h1>
     <h2>Ação solidária com propósito de levar amor e sorrisos</h2>
-    <a href="#formulario" class="btn">Seja um voluntário</a>
-    <br>
-    <br> 
-    <br>
-     <a href="#cadastro-crianca" class="btn">Cadastrar criança </a>
+     <div class="botoes-hero">
+        <a href="#formulario" class="btn">Seja um voluntário</a>
+        <a href="#cadastro-crianca" class="btn">Cadastrar criança </a>
+    </div>
 </section>
    
 
